@@ -13,7 +13,7 @@ Toolkit.run(async tools => {
   const event = tools.context.payload
 
   if (!event.commits) {
-    console.log(JSON.stringify(event))
+    console.log(JSON.stringify(tools))
     console.log('Couldn\'t find any commits in this event, incrementing patch version... JASON!')
   }
 
