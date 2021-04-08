@@ -1,3 +1,4 @@
+Jason Edit
 ## gh-action-bump-version
 
 GitHub Action for automated npm version bump.
